@@ -1,13 +1,15 @@
 ## 07.16-07.17学习笔记
 ### 关于上次学习笔记藏的东西
-知道计划改了之后就把知识停留在浅表状态力  
+知道计划改了之后就把知识停留在浅表状态力，感觉不能说看完论文这种话了，有些都不太懂这算看完个der，  
+提前开的香槟没一杯能喝  
 **带时滞的一致性算法的描述：**  
-发出的信息在现实中肯定是需要传输时间的，所以智能体在时刻$t$接收到的邻居智能体信息实际上是$t-a$时刻的，$a$称为时滞  
-同理，智能体读取自身信息（如需要）也是t-a时刻的，将相关量t改为t-a即为带时滞一致性算法  
+发出的信息在现实中肯定是需要传输时间的，所以智能体在时刻$t$接收到的邻居智能体信息实际上是$t-a$时刻的，  
+$a$称为时滞同理，智能体读取自身信息（如需要）也是t-a时刻的，将相关量t改为t-a即为带时滞一致性算法  
 关于带时滞算法的的稳定性证明，需要经过拉普拉斯变换，这部分尚未理解。  
 
 ### CAV学习
-#### 《Feedback-based platoon control for connected autonomous vehicles under different communication network topologies》
+#### 《Feedback-based platoon control for connected autonomous  
+vehicles under different communication network topologies》  
 >图论D,A等基本内容是基于MAS里的，不过多写了
 
 首先是经典的控制方程  
